@@ -1,0 +1,7 @@
+{
+  "name": "roots",
+  "owner": { "name": "roots" },
+  "plugins": [
+    { "name": "roots", "source": "./plugin", "description": "Skills and the MCP server of roots, a family-tree app." }
+  ]
+}

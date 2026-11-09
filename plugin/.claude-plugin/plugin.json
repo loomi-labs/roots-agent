@@ -1,0 +1,17 @@
+{
+  "name": "roots",
+  "version": "0.1.0",
+  "description": "Skills and the MCP server of roots, a family-tree app: fill a tree, research persons, read scans.",
+  "author": { "name": "roots" },
+  "homepage": "https://github.com/loomi-labs/roots-agent",
+  "repository": "https://github.com/loomi-labs/roots-agent",
+  "keywords": ["genealogy", "family-tree", "mcp", "research"],
+  "userConfig": {
+    "server_url": {
+      "type": "string",
+      "title": "roots MCP URL",
+      "description": "The MCP address of your roots instance, for example https://roots.example/mcp. The page /agents of the instance shows it.",
+      "required": true
+    }
+  }
+}
