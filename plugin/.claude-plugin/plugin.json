@@ -5,13 +5,14 @@
   "author": { "name": "roots" },
   "homepage": "https://github.com/loomi-labs/roots-agent",
   "repository": "https://github.com/loomi-labs/roots-agent",
+  "license": "MIT",
   "keywords": ["genealogy", "family-tree", "mcp", "research"],
   "userConfig": {
     "server_url": {
       "type": "string",
       "title": "roots MCP URL",
-      "description": "The MCP address of your roots instance, for example https://roots.example/mcp. The page /agents of the instance shows it.",
-      "required": true
+      "description": "The MCP address of your roots instance. The default is the hosted instance https://roots.odincloud.xyz/mcp. On your own instance, the page /agents shows the address.",
+      "default": "https://roots.odincloud.xyz/mcp"
     }
   }
 }

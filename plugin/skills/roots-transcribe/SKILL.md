@@ -1,6 +1,7 @@
 ---
 name: roots-transcribe
 description: "Read a scan, a church record or a letter in roots: mark each line or entry on the page and save the reading of each mark. Use when the user asks to read, transcribe or mark a scan or a document."
+license: MIT
 compatibility: Needs the roots MCP server (Streamable HTTP with OAuth).
 metadata:
   scope: research

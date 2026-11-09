@@ -1,6 +1,7 @@
 ---
 name: roots-start
 description: Fill an empty or small family tree in roots with persons, families, events and files, with the user as the source of facts. Use when a tree has no or few persons, or when the user says "fill my tree".
+license: MIT
 compatibility: Needs the roots MCP server (Streamable HTTP with OAuth).
 metadata:
   scope: write

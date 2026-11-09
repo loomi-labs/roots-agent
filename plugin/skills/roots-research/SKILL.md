@@ -1,6 +1,7 @@
 ---
 name: roots-research
 description: "Research a person or work on the research tasks of a roots tree: claim a task, search archives, log each search, propose the finds with sources, and write a report. Use when the user asks to research a person or to work on research tasks."
+license: MIT
 compatibility: Needs the roots MCP server (Streamable HTTP with OAuth).
 metadata:
   scope: research

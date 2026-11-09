@@ -9,7 +9,7 @@ roots is a family-tree app. A tree holds persons, families, events, places, sour
 /plugin install roots@roots
 ```
 
-Claude Code asks for the MCP URL of your instance, for example `https://roots.example/mcp`. The page `/agents` of your instance shows it.
+The plugin uses `https://roots.odincloud.xyz/mcp` by default. If you run your own instance, enter its MCP address when Claude Code asks at install, or later in `/config`. The page `/agents` of your instance shows the address.
 
 Do not also add the server by hand with the same name `roots`.
 
@@ -32,3 +32,7 @@ Open Customize › Skills and upload the ZIP of a skill.
 | `roots-start` | write | Fill an empty tree |
 | `roots-research` | research | The research loop |
 | `roots-transcribe` | research (optional write step) | Read a scan |
+
+## License
+
+MIT. See `LICENSE`.
